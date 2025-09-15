@@ -1,0 +1,11 @@
+# Ignore build outputs
+*.exe
+*.exp
+*.lib
+*.obj
+*.dll
+*.pdb
+*.dat
+
+# Ignore VSCode settings
+.vscode/
