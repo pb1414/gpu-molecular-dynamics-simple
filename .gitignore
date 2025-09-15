@@ -6,6 +6,8 @@
 *.dll
 *.pdb
 *.dat
+mcGPU-PB.cpp
+traj085Real.xyz
 
 # Ignore VSCode settings
 .vscode/
