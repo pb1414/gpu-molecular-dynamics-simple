@@ -8,16 +8,16 @@
 #include <iostream>
 #include <fstream>
 
-#define N 1500
-#define STEP_MAX 100000
+#define N 500
+#define STEP_MAX 2500000
 #define RCUT 2.5f
 #define RCUT2 (RCUT * RCUT)
 #define DR_MAX 0.2f
 #define T 0.85f
-#define VOL 7500.0f
+#define VOL 2500.0f
 #define EPSILON 1.0f
 #define SIGMA 1.0f
-#define PRINT_FREQ (1500)
+#define PRINT_FREQ (50 * N)
 #define BLOCK_SIZE 256
 
 __device__ float pbc(float x, float box_half, float box) {
